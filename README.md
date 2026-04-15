@@ -85,7 +85,7 @@ Note that the hold-out set was small (55 samples), so the near-perfect AUC-ROC m
 
 ### Top Predictive Features (Random Forest)
 
-`ratio_ch2` — the fraction of the whole tumour occupied by the **enhancing tumour** region — is the single strongest predictor of grade. This aligns with clinical understanding: enhancing tumour is a hallmark of HGG (aggressive, contrast-enhancing lesions).
+`ratio_ch2` : the fraction of the whole tumour occupied by the **enhancing tumour** region is the single strongest predictor of grade. 
 
 | Rank | Feature | Importance | Interpretation |
 |---|---|---|---|
