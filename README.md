@@ -133,25 +133,27 @@ Power BI dashboard built from the exported CSVs — shows grade distribution, mo
 
 ```
 brats-spark/
-├── feature_extraction.py      # H5 intensity + spatial extractors
-├── build_dataset.py           # Full feature pipeline → brats2020_features.csv
-├── read_metadata.py           # CSV inspection utility
-├── eda_spark.py               # PySpark EDA + cleaned dataset export
-├── ml_spark.py                # RF vs GBT with 5-fold CV + Power BI exports
-├── requirements.txt
-├── brats2020_features.csv         # Raw feature dataset (369 × 41)
-├── brats2020_features_clean.csv   # Cleaned + encoded dataset
-├── model_comparison.csv           # Metrics for both models
-├── rf_predictions.csv             # RF test predictions
-├── gbt_predictions.csv            # GBT test predictions
-├── rf_feature_importance.csv
-├── gbt_feature_importance.csv
-├── class_distribution.csv
-├── confusion_matrices.csv
-└── visuals/
-    ├── Pearson_Correlation_Matrix_BraTS2020_Features.png
-    ├── Pearson_Correlation_with_Grade.png
-    └── power_bi_screenshot.png
+├--- feature_extraction.py      # H5 intensity + spatial extractors
+├--- build_dataset.py           # Full feature pipeline → brats2020_features.csv
+├--- read_metadata.py           # CSV inspection utility
+├--- eda_spark.py               # PySpark EDA + cleaned dataset export
+├--- ml_spark.py                # RF vs GBT with 5-fold CV + Power BI exports
+├--- requirements.txt
+│--- data/
+|    ├--- brats2020_features.csv         # Raw feature dataset (369 × 41)
+|    ├--- brats2020_features_clean.csv
+│--- exports/
+|    ├--- model_comparison.csv           # Metrics for both models
+|    ├--- rf_predictions.csv             # RF test predictions
+|    ├--- gbt_predictions.csv            # GBT test predictions
+|    ├--- rf_feature_importance.csv
+|    ├--- gbt_feature_importance.csv
+|    ├--- class_distribution.csv
+|    ├--- confusion_matrices.csv
+└--- visuals/
+     ├--- Pearson_Correlation_Matrix_BraTS2020_Features.png
+     ├--- Pearson_Correlation_with_Grade.png
+     └--- power_bi_screenshot.png
 ```
 
 ---
