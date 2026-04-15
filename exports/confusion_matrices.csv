@@ -1,0 +1,9 @@
+model,actual,predicted,count
+Random Forest,LGG,LGG,10
+Random Forest,LGG,HGG,0
+Random Forest,HGG,LGG,0
+Random Forest,HGG,HGG,45
+GBT,LGG,LGG,9
+GBT,LGG,HGG,1
+GBT,HGG,LGG,0
+GBT,HGG,HGG,45

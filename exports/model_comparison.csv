@@ -1,0 +1,11 @@
+model,metric,value
+Random Forest,accuracy,1.0
+Random Forest,auc,1.0
+Random Forest,precision,1.0
+Random Forest,recall,1.0
+Random Forest,f1,1.0
+GBT,accuracy,0.981818
+GBT,auc,0.997778
+GBT,precision,0.982213
+GBT,recall,0.981818
+GBT,f1,0.98144

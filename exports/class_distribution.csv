@@ -1,0 +1,5 @@
+split,grade,count
+train,HGG,248
+train,LGG,66
+test,HGG,45
+test,LGG,10
