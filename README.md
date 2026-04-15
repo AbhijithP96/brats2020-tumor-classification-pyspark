@@ -135,7 +135,7 @@ Power BI dashboard built from the exported CSVs — shows grade distribution, mo
 brats-spark/
 ├--- feature_extraction.py      # H5 intensity + spatial extractors
 ├--- build_dataset.py           # Full feature pipeline → brats2020_features.csv
-├--- read_metadata.py           # CSV inspection utility
+├--- load_and_view.py           # Initial analysis of raw dataset.
 ├--- eda_spark.py               # PySpark EDA + cleaned dataset export
 ├--- ml_spark.py                # RF vs GBT with 5-fold CV + Power BI exports
 ├--- requirements.txt
